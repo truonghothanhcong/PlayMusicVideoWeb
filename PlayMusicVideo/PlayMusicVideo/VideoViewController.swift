@@ -16,22 +16,35 @@ class VideoViewController: UIViewController {
     @IBOutlet weak var videoPreview: UIView!
     var player: AVPlayer!
     var avpController = AVPlayerViewController()
+    
+    var playerLayer: AVPlayerLayer?
 
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         let moviePath = NSBundle.mainBundle().pathForResource("Lamborghini Huracan", ofType: "mp4")
-        if let path = moviePath{
+        if let path = moviePath {
             let url = NSURL.fileURLWithPath(path)
-            let item = AVPlayerItem(URL: url)
-            self.player = AVPlayer(playerItem: item)
+            self.player = AVPlayer(URL: url)
             self.avpController = AVPlayerViewController()
             self.avpController.player = self.player
-            avpController.view.frame = videoPreview.frame
             self.addChildViewController(avpController)
-            self.view.addSubview(avpController.view)
+            self.avpController.view.frame = self.videoPreview.bounds
+            self.videoPreview.addSubview(avpController.view)
+            
+            
+//            let url = NSURL.fileURLWithPath(path)
+//            self.player = AVPlayer(URL: url)
+//            self.playerLayer = AVPlayerLayer(player: player);
+//            self.playerLayer!.videoGravity = AVLayerVideoGravityResizeAspectFill;
+//            self.playerLayer!.frame =  videoPreview.bounds;
+//            self.videoPreview.layer.addSublayer(playerLayer!);
+//            //player.play();
         }
+        
+        
+
         
 //        // get path file string
 //        let myPathFileString = NSBundle.mainBundle().pathForResource("Lamborghini Huracan", ofType: "mp4")

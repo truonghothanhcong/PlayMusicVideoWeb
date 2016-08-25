@@ -26,7 +26,7 @@
                             </webView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="j3U-GB-C7r">
                                 <rect key="frame" x="20" y="383" width="280" height="165"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" red="0.0" green="0.78556528140000004" blue="0.099583379020000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="165" id="zRd-ZN-3mr"/>
                                 </constraints>
