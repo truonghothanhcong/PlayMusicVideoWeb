@@ -18,6 +18,8 @@
 		842D12111D6EA24C00A1FF19 /* We Don t Talk Anymore Heyder Remix - Charlie Puth Selena Gomez.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 842D12101D6EA24C00A1FF19 /* We Don t Talk Anymore Heyder Remix - Charlie Puth Selena Gomez.mp3 */; };
 		842D12141D6EDB1400A1FF19 /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 842D12121D6EDB1400A1FF19 /* pause.png */; };
 		842D12151D6EDB1400A1FF19 /* stop.png in Resources */ = {isa = PBXBuildFile; fileRef = 842D12131D6EDB1400A1FF19 /* stop.png */; };
+		842D12181D6EEC1E00A1FF19 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842D12171D6EEC1E00A1FF19 /* VideoViewController.swift */; };
+		842D121A1D6EEFA400A1FF19 /* Lamborghini Huracan.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 842D12161D6EE80D00A1FF19 /* Lamborghini Huracan.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		842D12101D6EA24C00A1FF19 /* We Don t Talk Anymore Heyder Remix - Charlie Puth Selena Gomez.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "We Don t Talk Anymore Heyder Remix - Charlie Puth Selena Gomez.mp3"; sourceTree = "<group>"; };
 		842D12121D6EDB1400A1FF19 /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = "<group>"; };
 		842D12131D6EDB1400A1FF19 /* stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stop.png; sourceTree = "<group>"; };
+		842D12161D6EE80D00A1FF19 /* Lamborghini Huracan.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lamborghini Huracan.mp4"; sourceTree = "<group>"; };
+		842D12171D6EEC1E00A1FF19 /* VideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +139,7 @@
 		842D12061D6E9AE700A1FF19 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				842D12161D6EE80D00A1FF19 /* Lamborghini Huracan.mp4 */,
 				842D12101D6EA24C00A1FF19 /* We Don t Talk Anymore Heyder Remix - Charlie Puth Selena Gomez.mp3 */,
 				842D12081D6E9AFF00A1FF19 /* play.png */,
 				842D12121D6EDB1400A1FF19 /* pause.png */,
@@ -147,6 +152,7 @@
 			isa = PBXGroup;
 			children = (
 				842D11DA1D6E8E3300A1FF19 /* ViewController.swift */,
+				842D12171D6EEC1E00A1FF19 /* VideoViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -273,6 +279,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				842D121A1D6EEFA400A1FF19 /* Lamborghini Huracan.mp4 in Resources */,
 				842D11E31D6E8E3300A1FF19 /* LaunchScreen.storyboard in Resources */,
 				842D120B1D6E9AFF00A1FF19 /* play.png in Resources */,
 				842D12141D6EDB1400A1FF19 /* pause.png in Resources */,
@@ -306,6 +313,7 @@
 			files = (
 				842D11DB1D6E8E3300A1FF19 /* ViewController.swift in Sources */,
 				842D11D91D6E8E3300A1FF19 /* AppDelegate.swift in Sources */,
+				842D12181D6EEC1E00A1FF19 /* VideoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
