@@ -14,6 +14,10 @@
 		842D11E31D6E8E3300A1FF19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842D11E11D6E8E3300A1FF19 /* LaunchScreen.storyboard */; };
 		842D11EE1D6E8E3300A1FF19 /* PlayMusicVideoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842D11ED1D6E8E3300A1FF19 /* PlayMusicVideoTests.swift */; };
 		842D11F91D6E8E3300A1FF19 /* PlayMusicVideoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842D11F81D6E8E3300A1FF19 /* PlayMusicVideoUITests.swift */; };
+		842D120B1D6E9AFF00A1FF19 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 842D12081D6E9AFF00A1FF19 /* play.png */; };
+		842D12111D6EA24C00A1FF19 /* We Don t Talk Anymore Heyder Remix - Charlie Puth Selena Gomez.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 842D12101D6EA24C00A1FF19 /* We Don t Talk Anymore Heyder Remix - Charlie Puth Selena Gomez.mp3 */; };
+		842D12141D6EDB1400A1FF19 /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 842D12121D6EDB1400A1FF19 /* pause.png */; };
+		842D12151D6EDB1400A1FF19 /* stop.png in Resources */ = {isa = PBXBuildFile; fileRef = 842D12131D6EDB1400A1FF19 /* stop.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		842D11F41D6E8E3300A1FF19 /* PlayMusicVideoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayMusicVideoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		842D11F81D6E8E3300A1FF19 /* PlayMusicVideoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayMusicVideoUITests.swift; sourceTree = "<group>"; };
 		842D11FA1D6E8E3300A1FF19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		842D12081D6E9AFF00A1FF19 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		842D12101D6EA24C00A1FF19 /* We Don t Talk Anymore Heyder Remix - Charlie Puth Selena Gomez.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "We Don t Talk Anymore Heyder Remix - Charlie Puth Selena Gomez.mp3"; sourceTree = "<group>"; };
+		842D12121D6EDB1400A1FF19 /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = "<group>"; };
+		842D12131D6EDB1400A1FF19 /* stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stop.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +105,11 @@
 		842D11D71D6E8E3300A1FF19 /* PlayMusicVideo */ = {
 			isa = PBXGroup;
 			children = (
-				842D11D81D6E8E3300A1FF19 /* AppDelegate.swift */,
-				842D11DA1D6E8E3300A1FF19 /* ViewController.swift */,
-				842D11DC1D6E8E3300A1FF19 /* Main.storyboard */,
+				842D120E1D6EA02B00A1FF19 /* Storyboard */,
+				842D120D1D6EA01300A1FF19 /* Controller */,
 				842D11DF1D6E8E3300A1FF19 /* Assets.xcassets */,
-				842D11E11D6E8E3300A1FF19 /* LaunchScreen.storyboard */,
-				842D11E41D6E8E3300A1FF19 /* Info.plist */,
+				842D12061D6E9AE700A1FF19 /* Resource */,
+				842D120F1D6EA03D00A1FF19 /* Support */,
 			);
 			path = PlayMusicVideo;
 			sourceTree = "<group>";
@@ -123,6 +130,43 @@
 				842D11FA1D6E8E3300A1FF19 /* Info.plist */,
 			);
 			path = PlayMusicVideoUITests;
+			sourceTree = "<group>";
+		};
+		842D12061D6E9AE700A1FF19 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				842D12101D6EA24C00A1FF19 /* We Don t Talk Anymore Heyder Remix - Charlie Puth Selena Gomez.mp3 */,
+				842D12081D6E9AFF00A1FF19 /* play.png */,
+				842D12121D6EDB1400A1FF19 /* pause.png */,
+				842D12131D6EDB1400A1FF19 /* stop.png */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		842D120D1D6EA01300A1FF19 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				842D11DA1D6E8E3300A1FF19 /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		842D120E1D6EA02B00A1FF19 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				842D11DC1D6E8E3300A1FF19 /* Main.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		842D120F1D6EA03D00A1FF19 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				842D11D81D6E8E3300A1FF19 /* AppDelegate.swift */,
+				842D11E11D6E8E3300A1FF19 /* LaunchScreen.storyboard */,
+				842D11E41D6E8E3300A1FF19 /* Info.plist */,
+			);
+			name = Support;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,7 +274,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				842D11E31D6E8E3300A1FF19 /* LaunchScreen.storyboard in Resources */,
+				842D120B1D6E9AFF00A1FF19 /* play.png in Resources */,
+				842D12141D6EDB1400A1FF19 /* pause.png in Resources */,
+				842D12151D6EDB1400A1FF19 /* stop.png in Resources */,
 				842D11E01D6E8E3300A1FF19 /* Assets.xcassets in Resources */,
+				842D12111D6EA24C00A1FF19 /* We Don t Talk Anymore Heyder Remix - Charlie Puth Selena Gomez.mp3 in Resources */,
 				842D11DE1D6E8E3300A1FF19 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
