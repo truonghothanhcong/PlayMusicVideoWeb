@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iej-I3-22N">
-                                <rect key="frame" x="20" y="60" width="280" height="148"/>
+                                <rect key="frame" x="20" y="20" width="280" height="148"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="148" id="ssM-VN-2wS"/>
@@ -37,7 +37,7 @@
                             <constraint firstAttribute="trailing" secondItem="j3U-GB-C7r" secondAttribute="trailing" constant="20" id="5a9-rF-aL2"/>
                             <constraint firstItem="j3U-GB-C7r" firstAttribute="leading" secondItem="S2W-Rj-bjI" secondAttribute="leading" constant="20" id="Dpl-fi-jMv"/>
                             <constraint firstAttribute="trailing" secondItem="iej-I3-22N" secondAttribute="trailing" constant="20" id="gsf-6J-C5R"/>
-                            <constraint firstItem="iej-I3-22N" firstAttribute="top" secondItem="Wwh-vL-KIs" secondAttribute="bottom" constant="40" id="iWK-vn-Coh"/>
+                            <constraint firstItem="iej-I3-22N" firstAttribute="top" secondItem="Wwh-vL-KIs" secondAttribute="bottom" id="iWK-vn-Coh"/>
                             <constraint firstItem="iej-I3-22N" firstAttribute="leading" secondItem="S2W-Rj-bjI" secondAttribute="leading" constant="20" id="kGo-QH-tXo"/>
                             <constraint firstItem="Z6N-St-PBA" firstAttribute="top" secondItem="j3U-GB-C7r" secondAttribute="bottom" constant="20" id="lGp-RX-sD2"/>
                         </constraints>

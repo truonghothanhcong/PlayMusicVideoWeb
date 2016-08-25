@@ -22,34 +22,34 @@ class VideoViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        let moviePath = NSBundle.mainBundle().pathForResource("Lamborghini Huracan", ofType: "mp4")
-        if let path = moviePath {
-            let url = NSURL.fileURLWithPath(path)
+//          // play video fix in UIView
+//        let moviePath = NSBundle.mainBundle().pathForResource("Lamborghini Huracan", ofType: "mp4")
+//        if let path = moviePath {
+//            let url = NSURL.fileURLWithPath(path)
+//            self.player = AVPlayer(URL: url)
+//            self.avpController = AVPlayerViewController()
+//            self.avpController.player = self.player
+//            self.addChildViewController(avpController)
+//            self.avpController.view.frame = self.videoPreview.bounds
+//            self.videoPreview.addSubview(avpController.view)
+//        }
+        
+        // play video from web (stream video)
+        let url = NSURL(string: "http://techslides.com/demos/sample-videos/small.mp4")
+        if let url = url {
             self.player = AVPlayer(URL: url)
             self.avpController = AVPlayerViewController()
             self.avpController.player = self.player
             self.addChildViewController(avpController)
             self.avpController.view.frame = self.videoPreview.bounds
             self.videoPreview.addSubview(avpController.view)
-            
-            
-//            let url = NSURL.fileURLWithPath(path)
-//            self.player = AVPlayer(URL: url)
-//            self.playerLayer = AVPlayerLayer(player: player);
-//            self.playerLayer!.videoGravity = AVLayerVideoGravityResizeAspectFill;
-//            self.playerLayer!.frame =  videoPreview.bounds;
-//            self.videoPreview.layer.addSublayer(playerLayer!);
-//            //player.play();
         }
-        
-        
 
         
 //        // get path file string
 //        let myPathFileString = NSBundle.mainBundle().pathForResource("Lamborghini Huracan", ofType: "mp4")
 //        let myPathFileURL = NSURL(fileURLWithPath: myPathFileString!)
-//        
+//        // play video in webView
 //        videoWebView.loadHTMLString("<iframe width = \"\(self.videoWebView.frame.width)\" height = \"\(self.videoWebView.frame.height)\" src = \"\(myPathFileURL)\"></iframe>", baseURL: nil)
     }
 
