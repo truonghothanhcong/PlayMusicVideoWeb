@@ -35,7 +35,8 @@ class VideoViewController: UIViewController {
 //        }
         
         // play video from web (stream video)
-        let url = NSURL(string: "http://techslides.com/demos/sample-videos/small.mp4")
+        //let stringURL = "http://techslides.com/demos/sample-videos/small.mp4"
+        let url = NSURL(string: "http://download024.fshare.vn/dl/4bm481CsgOgAyi8Cxg5jieZ6k2LEGOwKfDvhaq3G3+1oDHJnq7W4-HuVPXHA4yQrbmuH97cSO-B8eXv3/The%20Secret%20Life%20of%20Pets.MP4")
         if let url = url {
             self.player = AVPlayer(URL: url)
             self.avpController = AVPlayerViewController()
