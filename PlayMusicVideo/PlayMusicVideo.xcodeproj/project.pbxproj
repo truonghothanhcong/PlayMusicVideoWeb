@@ -243,6 +243,7 @@
 				TargetAttributes = {
 					842D11D41D6E8E3300A1FF19 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 5TJXL29536;
 					};
 					842D11E81D6E8E3300A1FF19 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -457,10 +458,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = PlayMusicVideo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = VNG.PlayMusicVideo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -468,10 +472,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = PlayMusicVideo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = VNG.PlayMusicVideo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -540,6 +547,7 @@
 				842D11FF1D6E8E3300A1FF19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		842D12001D6E8E3300A1FF19 /* Build configuration list for PBXNativeTarget "PlayMusicVideoTests" */ = {
 			isa = XCConfigurationList;
@@ -548,6 +556,7 @@
 				842D12021D6E8E3300A1FF19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		842D12031D6E8E3300A1FF19 /* Build configuration list for PBXNativeTarget "PlayMusicVideoUITests" */ = {
 			isa = XCConfigurationList;
@@ -556,6 +565,7 @@
 				842D12051D6E8E3300A1FF19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
